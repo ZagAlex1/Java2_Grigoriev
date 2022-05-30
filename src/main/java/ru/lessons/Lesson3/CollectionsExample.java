@@ -20,7 +20,7 @@ public class CollectionsExample {
 //        map.putIfAbsent("A", 5); // добавить значение, если оно пустое
 
         System.out.println(map.get("B"));
-        System.out.println(map.get("Z")); // получим null, что не совсем хорошо
+//        System.out.println(map.get("Z")); // получим null, что не совсем хорошо
         System.out.println(map.getOrDefault("Z", 99));
 //        map.replaceAll((k, v) -> v += 5);
 //        Set<String> keys = map.keySet();  // создать список ключей
